@@ -19,6 +19,9 @@ public class Execution {
 		if(base.getcurrentURL().equals(base.readExcel(3, 5))) {
 			System.out.println("Browser Launched");
 			//base.writeExcel(1, 6, "Browser Launched");
+			System.out.println("Work done by QA");
+			System.out.println("QA fixed the bug");
+			System.out.println("QA completed the work");
 		}
 		
 		//base.load();
